@@ -1,16 +1,13 @@
-<<<<<<< HEAD
-# pruebaTecnica-movies
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎬 **Prueba Técnica - Movies App** 🍿  
 
-Currently, two official plugins are available:
+Sumérgete en una experiencia cinematográfica con esta aplicación web desarrollada en **React**, donde se consume una API para mostrar una amplia selección de películas. Con una interfaz limpia y atractiva, los usuarios pueden explorar títulos populares, descubrir detalles clave y disfrutar de una navegación fluida e intuitiva.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 **Características principales:**  
+✅ Consumo dinámico de una API de películas de https://www.themoviedb.org/ 
+✅ Diseño responsivo y amigable  
+✅ Interfaz minimalista  
+✅ Carga eficiente de datos para una navegación rápida  
+ 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> e70df06 (Initial comit)
+[🔗 Ver demo](https://gersond12.github.io/pruebaTecnica-movies/)  
