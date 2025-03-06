@@ -1,0 +1,70 @@
+.header {
+    background: #c3d3e0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* 🔹 Menú alineado a la izquierda */
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-menu h1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-menu ul li {
+    display: inline;
+  }
+  
+  .nav-menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .nav-menu ul li a:hover {
+    color: #f39c12;
+  }
+  
+  /* 🔍 Barra de búsqueda alineada a la derecha */
+  .search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .search-bar {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
